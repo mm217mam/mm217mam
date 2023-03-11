@@ -1,12 +1,13 @@
 - Hi, I’m Mike Montes @mm217mam.
 - I’m interested in learning to use data science to solve our problems and sometimes just answer, "What if...?"
-- I’m currently learning Python, R, predictive modeling and ML online at Maryville U., St. Louis.  (Taking 12 hours in the spring so my GitHub may grow slowly.)
+- I’m currently learning Machine Learning, Probability II online at Maryville U of St. Kouis
+- I've taken Python, R, predictive modeling and SAS.  (I'm halfway through taking 12 hours in the spring so my GitHub may grow slowly.)
 - I’m looking to collaborate on learning to code and navigate the pro network with my fellow noobs.
 - How to reach me: miguel.montes.jr@gmail.com
 
 Short Background:
 - B.S. Chemistry UTEP (TX)
-- Some graduate work at UTMB in biophysics & biochemistry (protein expression, purification, crystallization and structure determination via XRC.)
+- Two years doctoral studies at UTMB Galveston in biophysics & biochemistry (protein expression, purification, crystallization and structure determination via XRC.)
 - Currently a high school science teacher in TX.
 - Programmed in Basic long ago - still have my TRS-80.
 
