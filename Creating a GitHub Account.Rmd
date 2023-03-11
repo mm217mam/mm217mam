@@ -1,0 +1,83 @@
+---
+title: "Creating a GitHub Account"
+author: "mm"
+date: "2023-03-10"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Concepts Learned this Semester
+
+## Week 1
+  
+  - A low MSE, or mean standard average on a training set, but a high MSE on the test set is normally the result of overfitting.
+  
+  - Cross-validation consists of dividing the data into n groups and using n-1 of the groups as training sets and the nth data set as the test set.  This is performed with all n sets, changing the nth group each time to be used as the test set. This allows each iteration to be tweaked and the model to increase in validity for the test set which results in a lower MSE. 
+
+  - Feature reduction consists of reducing the degrees of freedom or predictors used in the model which results in a smoother curve that does not follow the inherent idiosyncracies of the training data set.
+
+## Week 2
+
+  - Exploratory and explanatory data analyses are two sides of the same coin:
+    
+    - Exploratory analysis consists of statistical summaries and various graphical output to obtain an overview of the data.  Examples of what one looks for are: missing data by variable, the distributions of the variables with a particular focus on its order of magnitude, obvious and illogical outliers and the use of histograms, line plots, bar plots, dot plots and correlation plots are also useful to obtain a birds-eye view of what may not be obvious on a statistical table.
+    
+    - Explanatory analysis uses concrete factors to remove values or entire records, decide on the sufficiency of variable data and determine which variables have useful links for modeling and avoid using those which don’t.  This tells about the relationship between the variables and target once the back and forth between exploratory and explanatory has reached a satisfactory equilibrium.
+
+## Week 3
+
+  - In linear regression models, residuals must be uncorrelated to show that the model predicts the target variable with the stated predictors.
+  
+  - Linear regression assumes that the target variable is a function of one or more predictor variables.  The general form of this equation is: Y = β0 + β1X + ϵ with expansion allowed for more than one predictor and may include their interactions. 
+
+  - If the linear regression model is good, the residuals would be equally scattered, or homoscedastic, around the plot of the lm equation for the entire domain.  There is no correlation between residuals in this situation, as the lm has accounted for all predictors in the computation of the target.  The converse of this would be that the scattering of residual plots is heteroscedastic, or does not follow the lm equation.
+
+## Week 4
+
+  - Precision is a qualitative number which tells us how valid the results are: it's the number of true positives divided by all positive results (true & false.)  This is more of a judgement of the quality of the model, that is, a high precision tells us that the student samples were classified correctly.  
+  - Recall is a quantitative measure of the completeness of the model's ability to correctly classify ALL student samples.  It is the ratio of true positives to the actual positives (TP + FN.) 
+  
+## Week 5
+  
+  - General linear models are a powerful extension of the linear regression model when attempting to predict a target using several variables which uses a link function which connects: 1) a linear equation which predicts the mean, and 2) a variance function shows the variance dependence on the mean.
+  
+  - GLMs allow for many types of nonlinear distributions such as the Poisson (log), binomial (logit), gamma and negative binomial by making nonlinear distributions linear.  
+  
+  - GLMs require predictor inclusion to those that are uncorrelated with each other: correlation leads to an unreliable model. 
+  
+  - The need to have independent predictors makes the use of GLMs for time-series data undesirable.
+  
+## Week 6
+ 
+  - Gradient-boosting machines are based on non-parametric regression models which makes them easier to model real world data that is not simple.
+  
+  - GLMs use the sequential addition of new models at each iteration of training to allow for learning of the data to create a better model.
+  
+  - GLMs are highly flexible which allows a wide range of uses since this method allows customization to the data problem 
+  
+  - Shrinkage in GLMs allows a model to be created along the best path by using numerous, small adjustments to the model based on the regression coefficients, while avoiding over-fitting by tuning the M hyperparameter.  This does require knowledge by the coder.
+
+## Week 7
+
+  - Some uses of unsupervised algorithms:
+    
+    -  Clustering large quantities of data such as in big data.  This data changes from moment to moment and while expected groupings may be used once a system has been set up, one should always be on the lookout for changes in the data system.
+
+    - Restricted Boltzmann machines assume random variables dependent on previous nodes (weighted or not.)
+  
+    - Principal component analysis decomposes large datasets into orthogonal components to find independent causality variables.
+    
+## Week 8
+
+  - Some Git commands: 
+  
+    - 'git branch [branch name]' - this is obvious and very helpful - creates a new branch.  Allows one to keep track of these changes so one can backtrack and get to the final code faster if the branches are named properly.
+
+    - 'git branch -a' - names all branches.  This is good to have a bird's eye view of one's work in a project.
+    
+    - 'git merge [branch name]' - this merges a branch into the active branch.  I would use this to take code that I've been working on and add it to a code file that has been proven to do what I intend it to do.
+
+
+### Most of these are quoted and paraphrased from my discussion posts.
