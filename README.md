@@ -1,4 +1,4 @@
-- Hi, I’m Mike Montes @mm217mam.
+- Hi, I’m Mike Montes @mm217mam, https://www.linkedin.com/in/mikemontesj/, miguel.montes.jr@gmail.com.
 - It's been a year since I opened this repositiry and it's time to start filling it.  I obtained my B.S. in Data Science in December 2023, and am now halfway thorugh the M.S. with concentrations on ML and Big Data.  Those don't limit me though.  It is now time for me to start showing what I've learned: I'll start with easy datasets and show my coding skills in R, Python and SQL, and then I'll move onto more demanding projects.  If you're new to DS, ask me questions if you need help as I've struggled quite a bit and I want to smooth your way down this interesting path. 
 - I’m interested in learning to use data science to solve our problems and sometimes just answer, "What if...?"
 - I’m currently learning Machine Learning, Probability II online at Maryville U of St. Louis
